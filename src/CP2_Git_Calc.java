@@ -12,7 +12,7 @@ public class CP2_Git_Calc {
 
 class Calc {
 	public int add(double a, double b) {
-		return (int) (a+b);
+		return (int)(a+b);
 	}
 	
 	public int sub(double a, double b) {
@@ -24,6 +24,6 @@ class Calc {
 	}
 	
 	public int div(double a, double b) {
-		return -1;
+		return (int)(a/b);
 	}
 }
